@@ -1,0 +1,8 @@
+[project]
+name = "autonomous-observatory-scheduler"
+version = "0.1.0"
+description = "Deterministic simulation of an autonomous observatory scheduler with a baseline planner"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
